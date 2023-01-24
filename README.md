@@ -17,6 +17,13 @@ In the case of `Sönke Müller` this corresponds to a remote branch name of `soe
 
 Please refer to the instructions [here](https://wildcodeschool.github.io/css-workshop/).
 
+## Before you start
+
+Please switch to the `responsive` branch from the repo using:
+```bash
+git switch responsive
+```
+
 ## Contribution Guidelines
 
 ### Branch Naming
