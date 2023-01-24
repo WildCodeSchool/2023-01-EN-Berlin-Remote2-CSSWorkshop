@@ -5,11 +5,12 @@
 
  body {
     margin: 0;
+    
  } 
 
 h1 {
-    color: whitesmoke;
-    margin: 0px;
+    
+
 }
 
 ul {
@@ -36,9 +37,35 @@ p {
 header {
     min-height: 250px;
     background-image: url(assets/background.jpg);
+    display: flex;
+    color: blanchedalmond;
+    margin-top: 0px;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 nav {
-    background-color: #f76c6c;
+    background-color: #94bdb4;
     margin: 0px;
+}
+
+main {
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 65ch;
+}
+
+article {
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 160px;
+    margin-right: 5px;
+    border-radius: 7px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px;
 }
