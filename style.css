@@ -1,1 +1,132 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin:0;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2px;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(38, 35, 78, 255);
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:20px;
+    padding: 3px;
+  }
 
+  #walkies {
+    list-style: none;
+    display: block;
+    margin-left:20px;
+    padding: 3px;
+  }
+  
+  header {
+    background-color:blanchedalmond;
+    background-position:fixed;
+    padding-bottom:300px;
+  }
+  
+  .text-box {
+    width: 80%;
+    color: rgb(38, 35, 78, 255);
+    text-align: center;
+    margin-top:150px;
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .text-box h1 {
+    font-size: 62px;
+  }
+  
+  .text-box p {
+    margin: 40px 0 40px;
+    font-size: 18px;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(38, 35, 78, 255);
+    border-radius: 40px;
+    transition: 0.5s;
+    margin-right:auto;
+    margin-left:auto;
+
+  }
+  
+  .hero-button:hover {
+    background-color: rgb(68, 59, 99);
+  }
+  
+  .hero.button:active {
+    background-color: rgb(214, 209, 215);
+  }
+
+  .flex-img {
+
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+}
+
+  .article-heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+ 
+  .grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 100px 150px; 
+    grid-template-areas: 
+      "article1 article2"
+      "article3 article4"; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    text-align: center;
+    margin:150px;
+  }
+  .article1 { grid-area: article1; }
+  .article2 { grid-area: article2; }
+  .article3 { grid-area: article3; }
+  .article4 { grid-area: article4; }
+
+  footer {
+	width: 100%;
+	margin-bottom: 0;
+	background-color: blanchedalmond;
+    height:40px;
+	color: rgb(38, 35, 78, 255);
+	text-align: left;
+}
+  
