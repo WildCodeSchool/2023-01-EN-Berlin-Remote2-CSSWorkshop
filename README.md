@@ -1,3 +1,3 @@
 # Workshop HTML/CSS Basics #1
 
-From the workshop https://github.com/WildCodeSchool/html-basics-workshop.
+Please refer to the instruction [here](https://wildcodeschool.github.io/css-workshop/).
