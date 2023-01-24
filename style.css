@@ -58,14 +58,27 @@ main {
     max-width: 65ch;
 }
 
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+
 article {
-    display: inline-flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    width: 45%;
+    height: 25%;
+    margin: 10px auto;
+    height:auto;
     border: solid;
-    width: 160px;
-    margin-right: 5px;
     border-radius: 7px;
     box-shadow: 1.5px 1.5px 1.5px 1.5px;
+}
+
+.footer {
+    font-size: 16px;
+    color: whitesmoke;
+    background-color:#94bdb4;
 }
