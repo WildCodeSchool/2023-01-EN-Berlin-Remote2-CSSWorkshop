@@ -13,7 +13,7 @@ Please use the branch naming guidelines below to decide how to name your branch.
 
 ## Commit regularly
 
-Do not wait until you finish everything. Commit after evry step with a clear commit message that described which part you are done with.
+Do not wait until you finish everything. Commit after every step with a clear commit message that described which part you are done with.
 
 ## Push after you are done
 
@@ -50,7 +50,7 @@ Please use the branch naming guidelines below to decide how to name your branch.
 
 ## Commit regularly
 
-Do not wait until you finish everything. Commit after evry step with a clear commit message that described which part you are done with.
+Do not wait until you finish everything. Commit after every step with a clear commit message that described which part you are done with.
 
 ## Push after you are done
 
