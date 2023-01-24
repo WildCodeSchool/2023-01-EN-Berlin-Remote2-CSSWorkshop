@@ -1,3 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+
+ body {
+    margin: 0;
+ } 
+
 h1 {
-    color: rgb(59, 76, 76);
+    color: whitesmoke;
+    margin: 0px;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-left: -35px; 
+    margin-top: 5px;
+    font-weight:bold;
+    color: whitesmoke;
+}
+
+li {
+    margin-right: 10px;
+}
+
+p {
+    margin:0;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+header {
+    min-height: 250px;
+    background-image: url(assets/background.jpg);
+}
+
+nav {
+    background-color: #f76c6c;
+    margin: 0px;
 }
