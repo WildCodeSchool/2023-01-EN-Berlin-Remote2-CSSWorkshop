@@ -2,6 +2,23 @@
 
 Please refer to the instructions [here](https://wildcodeschool.github.io/html-basics-workshop/).
 
+## Before you start
+
+Please create a branch first using:
+```
+git switch -c {{branch-name}}
+```
+
+Please use the branch naming guidelines below to decide how to name your branch.
+
+## Commit regularly
+
+Do not wait until you finish everything. Commit after evry step with a clear commit message that described which part you are done with.
+
+## Push after you are done
+
+Consult with the git cheat sheet to know how to push a branch for the first time.
+
 ## Contribution Guidelines
 
 ### Branch Naming
@@ -23,6 +40,21 @@ Please switch to the `responsive` branch from the repo using:
 ```bash
 git switch responsive
 ```
+
+Then, create a branch first using:
+```
+git switch -c {{branch-name}}
+```
+
+Please use the branch naming guidelines below to decide how to name your branch.
+
+## Commit regularly
+
+Do not wait until you finish everything. Commit after evry step with a clear commit message that described which part you are done with.
+
+## Push after you are done
+
+Consult with the git cheat sheet to know how to push a branch for the first time.
 
 ## Contribution Guidelines
 
