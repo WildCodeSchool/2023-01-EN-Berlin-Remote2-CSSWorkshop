@@ -68,19 +68,19 @@ article {
     -webkit-box-shadow: 2px 3px 2px 1px #ADADAD;
     box-shadow: 2px 4px 9px 3px #ADADAD;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
     background-color: #D0B8A8;
     width: 100wv;
-    height: 2rem;
-    text-align: left; 
+    padding: 1rem;
 }
 
 li:hover {
-    color: #F8EDE3;
+color: #F8EDE3;
 }
+
 article:hover{
     border: 2px solid #7D6E83;
 }
