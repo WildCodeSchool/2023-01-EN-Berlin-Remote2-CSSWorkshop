@@ -1,72 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;}
-body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
     background-color: #F8EDE3;
     color: #7D6E83;
 }
 
-nav{
+nav {
     background-color: #D0B8A8;
-    width:100%;
+    width: 100%;
     height: 12vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
     padding-left: 2vw;
 }
+
 ul {
     display: flex;
     justify-content: space-between;
     align-content: center;
     list-style: none;
 }
-li{
+
+li {
     padding-right: 1rem;
 }
-h1{
-    font-size: 2rem;
+
+.cover {
+    font-size: 1.2rem;
     font-weight: 600;
     color: #F8EDE3;
-    text-align:center;
+    text-align: center;
     padding-top: 1rem;
     max-height: 30vh;
     background-image: url(assets/dog.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 62.5%;
-}
-section > h2, p {
-    margin-top: 2rem;
-    text-align:justify;
-    position: relative;
-    width: 70vw;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-bottom: 59.5%;
 }
 
-.articles{
-margin-top: 2rem;
-display:grid;
-grid-template-columns: auto auto;
-grid-template-rows: auto auto;
-grid-gap: 10px;
+.about-us, .featured-posts {
+    margin: 2rem auto; 
+    text-align: justify;
+    width: 70vw;
 }
-article{
+
+.articles {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    margin: 0, 10vw;
+}
+
+article {
     border: 1px solid rgb(212, 209, 209);
-    border-radius: 5px;
-    -webkit-box-shadow: 2px 3px 2px 1px #ADADAD; 
-box-shadow: 2px 4px 9px 3px #ADADAD;
-padding: 2rem;
-text-align:center;
+    border-radius: 8px;
+    -webkit-box-shadow: 2px 3px 2px 1px #ADADAD;
+    box-shadow: 2px 4px 9px 3px #ADADAD;
+    padding: 2rem;
+    text-align: center;
 }
-footer{
+
+footer {
     background-color: #D0B8A8;
-    width:100wv;
+    width: 100wv;
     height: 2rem;
-    text-align: left;
+    text-align: left; 
+}
+
+li:hover {
+    color: #F8EDE3;
+}
+article:hover{
+    border: 2px solid #7D6E83;
 }
