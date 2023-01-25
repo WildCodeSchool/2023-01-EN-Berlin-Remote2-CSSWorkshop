@@ -95,13 +95,18 @@ h2 {
 p {
     font-size: 0.8rem;
 }
+
+.featured-posts {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .all-articles { 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color:#f76c6c;
     
-
 }
 
 #article2, #article3, #article4, #article5 {
@@ -146,3 +151,55 @@ footer {
 .footer-text {
     margin: 0;
 }
+
+
+@media screen and (min-width: 1200px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .workshop {
+        font-size: 1.5rem;
+        padding: 0;
+        margin-left: 2rem;     
+    }
+
+    ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 2rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .featured-posts {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #article1 {
+        height: 10rem;
+    }
+
+    .all-articles {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 10rem;
+    }
