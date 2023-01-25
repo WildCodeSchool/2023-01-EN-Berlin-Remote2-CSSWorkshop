@@ -47,3 +47,9 @@ h3 {
     box-shadow: 27px 24px 20px -6px #FF5A5A;
     width:50vw;
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    justify-content: center;
+}
