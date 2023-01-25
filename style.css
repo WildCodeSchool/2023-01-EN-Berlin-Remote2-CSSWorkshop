@@ -37,14 +37,14 @@ li {
 .cover {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #F8EDE3;
+    color: #402a13;
     text-align: center;
     padding-top: 1rem;
-    max-height: 30vh;
-    background-image: url(assets/dog.jpg);
+    max-height: 20vh;
+    background-image: url(assets/black-panther.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 59.5%;
+    padding-bottom: 42%;
 }
 
 .about-us, .featured-posts {
