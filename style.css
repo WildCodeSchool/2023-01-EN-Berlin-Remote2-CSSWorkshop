@@ -28,6 +28,7 @@ ul {
     justify-content: space-between;
     align-content: center;
     list-style: none;
+    cursor: pointer;
 }
 
 li {
@@ -37,14 +38,14 @@ li {
 .cover {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #402a13;
+    color: #F8EDE3;
     text-align: center;
     padding-top: 1rem;
     max-height: 20vh;
-    background-image: url(assets/black-panther.jpg);
+    background-image: url(assets/dog.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 42%;
+    padding-bottom: 60%;
 }
 
 .about-us, .featured-posts {
@@ -69,6 +70,7 @@ article {
     box-shadow: 2px 4px 9px 3px #ADADAD;
     padding: 2rem;
     text-align: left;
+    cursor: pointer;
 }
 
 footer {
